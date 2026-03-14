@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <link rel="stylesheet" href="/myweb/new.css">
+</head>
+<body>
+    <h1 id="title">这是一个新的页面</h1>
+    <div id="box">
+        <div id="left">  </div>
+        <div id="right">
+            <h1 id="title2">你们好啊</h1>
+            <br>
+            <form action="">
+                <input  class="tx" type="text" placeholder="请输入用户名">
+                <br>
+                <input  class="tx" type="password" placeholder="请输入密码">
+                <br>
+                <input id="btn" type="submit" value="登录">
+                
+            </form>
+        </div>
+        <script>
+            var btn = document.getElementById("btn");
+            btn.onclick = function(e){
+                e.preventDefault();
+                window.location.replace("https://www.bilibili.com/video/BV1GJ411x7h7/");
+            }
+        </script>
+    </div>
+    
+</body>
+</html>
